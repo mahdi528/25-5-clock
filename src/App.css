@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+}
+
+.pomodoro-container {
+  text-align: center;
+  background: #3a3f47;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.label {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.btn {
+  background: #61dafb;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #4fa3d1;
+}
+
+.value {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.timer-label {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.time-left {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#start_stop, #reset {
+  background: #ff6363;
+  color: white;
+}
+
+#start_stop:hover, #reset:hover {
+  background: #d95353;
+}
